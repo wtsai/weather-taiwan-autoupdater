@@ -1,7 +1,7 @@
 Time Search
 =================
 
-Search the weather record by by time and StationID.
+Search the weather record by time and StationID.
 
 Getting started
 -
