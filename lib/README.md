@@ -22,6 +22,9 @@ var config = {
 TimeSearch.Search(config.databaseLocal.uri, config.databaseLocal.collection, '2017-01-26T02:00:00.000Z', '466940', function(err, result) {
 	console.log(result);
 })
+TimeSearch.obsString('2017-01-26T02:00:00.000Z', '466940', function(err, result) {
+	console.log(result);
+})
 ```
 
 ### Run the main application (app.js)
